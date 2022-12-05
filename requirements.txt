@@ -2,6 +2,7 @@
 onnx
 onnxruntime
 numpy
+opencv-python
 
 #Microservice packages
 flask-cors
