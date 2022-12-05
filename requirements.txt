@@ -1,0 +1,9 @@
+#Model ONNX packages
+onnx
+onnxruntime
+numpy
+
+#Microservice packages
+flask-cors
+flask
+waitress
