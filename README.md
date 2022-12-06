@@ -1,1 +1,1 @@
-# yolov7_microservice
+# Yolov7 Microservice
