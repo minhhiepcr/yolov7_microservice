@@ -20,7 +20,12 @@ def detectImage():
     if(request.files):
         binary_file = request.files.get("image_file").read()
         result = detect(model=model, img=binary_file, img_size=IMG_SIZE)
-    return jsonify(result)
+        return jsonify(result)
+
+    return jsonify({
+        "message": "Don't have image to detect",
+        "status": False
+    })
 
 
 if __name__ == '__main__':
